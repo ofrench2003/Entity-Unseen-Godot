@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://hid7auvfrumd"]
+
+[ext_resource type="Script" path="res://scenesandscripts/GUI/gui.gd" id="1_54qa6"]
+
+[node name="GUI" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_54qa6")
+
+[node name="FPSCounter" type="Label" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_font_sizes/font_size = 42
+text = "FPS: 60"

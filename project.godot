@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="housegame"
+run/main_scene="res://scenesandscripts/housescene.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -19,6 +20,7 @@ config/icon="res://icon.svg"
 window/size/viewport_width=1920
 window/size/viewport_height=1080
 window/size/mode=4
+window/vsync/vsync_mode=0
 
 [editor_plugins]
 
@@ -71,3 +73,7 @@ sprint={
 
 common/physics_ticks_per_second=120
 common/max_physics_steps_per_frame=16
+
+[rendering]
+
+lights_and_shadows/positional_shadow/atlas_size=8192

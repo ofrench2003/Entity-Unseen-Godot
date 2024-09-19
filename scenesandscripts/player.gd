@@ -44,9 +44,8 @@ func _ready() -> void:
 	cam.fov = FOV
 
 
-
 func _physics_process(delta: float) -> void:
-	
+
 	#----------Movement----------#
 	move_axis.x = Input.get_action_strength("up") - Input.get_action_strength("down") # measuring x input
 	move_axis.y = Input.get_action_strength("right") - Input.get_action_strength("left") # measuring z input
