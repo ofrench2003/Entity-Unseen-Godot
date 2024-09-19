@@ -4,7 +4,7 @@
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_wyfyd"]
 radius = 0.338207
-height = 1.64833
+height = 2.06062
 
 [node name="player" type="CharacterBody3D"]
 script = ExtResource("1_2mx87")
@@ -15,7 +15,7 @@ sprint_speed = 6
 shape = SubResource("CapsuleShape3D_wyfyd")
 
 [node name="head" type="Node3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.523136, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7244, 0)
 
 [node name="Camera3D" type="Camera3D" parent="head"]
 current = true
